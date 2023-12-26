@@ -1,0 +1,40 @@
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% de la altura de la ventana visible */
+    background-image:linear-gradient(rgba(0,0,0,0,75),rgba(0,0,0,0,75)),
+    url(../../../assets/img/luisaoclinica.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; /* Asegura que la imagen esté centrada */
+    filter: brightness(50%);
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.centered-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.centered-text p {
+    font-size: 1.5em;
+    max-width: 600px;
+    margin: 0 auto;
+}
